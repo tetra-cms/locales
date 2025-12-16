@@ -120,5 +120,14 @@
             "title": "Are you sure you want to clear the cart?",
             "subtitle": "All items will be removed from cart"
         }
+    },
+
+    "admin": {
+        "header": {
+            "title": "Tetra — Admin panel"
+        },
+        "auth": {
+            "subtitle": "Admin panel enterance"
+        }
     }
 }
