@@ -130,7 +130,11 @@
             "subtitle": "Admin panel enterance"
         },
         "menu": {
-            "title": "Control business"
+            "title": "Control the business",
+            "leave": "User mode"
+        },
+        "dashboard": {
+            "title": "Overview"
         }
     }
 }
