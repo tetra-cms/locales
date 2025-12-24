@@ -134,7 +134,17 @@
             "leave": "User mode"
         },
         "dashboard": {
-            "title": "Overview"
+            "title": "Overview",
+            "statistic": {
+                "periodgap": {
+                    "placeholder": "Last",
+                    "day": "day",
+                    "month": "month",
+                    "year": "year"
+                },
+                "order": "Orders",
+                "revenue": "Revenue"
+            }
         }
     }
 }

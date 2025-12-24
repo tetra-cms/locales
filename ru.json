@@ -134,7 +134,17 @@
             "leave": "Выйти из панели"
         },
         "dashboard": {
-            "title": "Статистика"
+            "title": "Статистика",
+            "statistic": {
+                "periodgap": {
+                    "placeholder": "За последний",
+                    "day": "день",
+                    "month": "месяц",
+                    "year": "год"
+                },
+                "order": "Заказы",
+                "revenue": "Доход"
+            }
         }
     }
 }
