@@ -138,6 +138,7 @@
             "statistic": {
                 "periodgap": {
                     "placeholder": "За последний",
+                    "placeholder_sub": "Период: ",
                     "day": "день",
                     "month": "месяц",
                     "year": "год"
