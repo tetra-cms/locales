@@ -146,6 +146,9 @@
                 "order": "Orders",
                 "revenue": "Revenue"
             }
+        },
+        "items": {
+            "title": "Products overview"
         }
     }
 }
