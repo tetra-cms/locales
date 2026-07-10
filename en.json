@@ -82,6 +82,7 @@
     },
 
     "usermenu": {
+        "admin_panel": "For employees",
         "logout": "Logout"
     },
 
