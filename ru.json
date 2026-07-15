@@ -115,6 +115,14 @@
             "cash": "Наличные",
             "noncash": "Безналичные"
           }
+        },
+        "status": {
+            "PROCESSING": "В работе",
+            "CANCELLED": "Отменён",
+            "RECEIVED": "Получен",
+            "DELIVERY": "В доставке",
+            "ASSEMBLED": "Собран",
+            "PENDING_PAYMENT": "Ожидает оплаты"
         }
     },
     "labels": {
@@ -173,6 +181,27 @@
         },
         "items": {
             "title": "Список товаров"
+        },
+        "orders": {
+            "title": "Заказы",
+            "create_title": "Создание заказа",
+            "edit_title": "Редактирование заказа",
+            "create_button": "Создать заказ",
+            "edit_button": "Сохранить изменения",
+            "remove_button": "Удаление заказа"
+        },
+        "columns": {
+            "order": {
+                "client": "Клиент",
+                "status": "Статус",
+                "comment": "Комментарий",
+                "positions": "Позиции",
+                "product": "Товар",
+                "quantity": "Количество",
+                "price": "Цена",
+                "total_price": "Сумма",
+                "total_quantity": "Количество товаров"
+            }
         }
     }
 }
