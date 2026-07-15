@@ -179,8 +179,17 @@
                 "revenue": "Доход"
             }
         },
+        "common": {
+            "search": "Поиск",
+            "records": "записи"
+        },
         "items": {
-            "title": "Список товаров"
+            "title": "Список товаров",
+            "create_title": "Создание товара",
+            "create_button": "Создать товар",
+            "edit_button": "Редактировать товар",
+            "back_button": "Назад к товарам",
+            "remove_button": "Удаление товара"
         },
         "orders": {
             "title": "Заказы",
@@ -190,7 +199,52 @@
             "edit_button": "Сохранить изменения",
             "remove_button": "Удаление заказа"
         },
+        "users": {
+            "title": "Список пользователей"
+        },
+        "categories": {
+            "title": "Список категорий",
+            "create_title": "Создание категории",
+            "create_button": "Создать категорию",
+            "edit_button": "Редактировать категорию",
+            "back_button": "Назад к категориям"
+        },
+        "errors": {
+            "no_data": "Нет данных"
+        },
+        "content": {
+            "title": "Страницы контента",
+            "create_title": "Создание страницы",
+            "back_button": "Назад к страницам",
+            "edit_button": "Редактировать страницу",
+            "create_button": "Создать страницу"
+        },
         "columns": {
+            "common": {
+                "id": "Идентификатор",
+                "title": "Наименование",
+                "actions": "Действия",
+                "techinal_name": "Техническое наименование",
+                "name": "Наименование",
+                "icon_name": "Иконка",
+                "created_at": "Создано"
+            },
+            "user": {
+                "username": "Имя пользователя",
+                "email": "Электронная почта",
+                "role": "Роль"
+            },
+            "product": {
+                "description": "Описание",
+                "category": "Категория",
+                "price": "Цена",
+                "supply_quantum": "Квант поставки",
+                "stock": "Наличие"
+            },
+            "content": {
+                "route": "Маршрут",
+                "content": "Контент"
+            },
             "order": {
                 "client": "Клиент",
                 "status": "Статус",
@@ -200,7 +254,7 @@
                 "quantity": "Количество",
                 "price": "Цена",
                 "total_price": "Сумма",
-                "total_quantity": "Количество товаров"
+                "total_quantity": "Количество"
             }
         }
     }
