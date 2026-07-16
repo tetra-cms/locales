@@ -117,6 +117,27 @@
         }
     },
     "order": {
+        "title": "Мои заказы",
+        "order": "Заказ",
+        "created": "Создан",
+        "payment": "Метод оплаты",
+        "quantity": "Количество",
+        "price": "Цена",
+        "total": "Итого",
+        "payments": {
+          "CASH": "Наличные",
+          "NONCASH": "Безналичные"
+        },
+        "deliveryes": {
+          "PICKUP": "Самовывоз",
+          "DELIVERY": "Доставка"
+        },
+        "comment": "Комментарий",
+        "positions": "Позиции",
+        "total_quantity": "Количество",
+        "delivery": "Метод доставки",
+        "client": "Получатель",
+        "information": "Информация о заказе",
         "block": {
             "summary": "Итого"
         },
@@ -129,6 +150,7 @@
           }
         },
         "status": {
+            "status": "Статус заказа",
             "IN_PROGRESS": "В работе",
             "CANCELLED": "Отменён",
             "RECEIVED": "Получен",
@@ -165,7 +187,16 @@
             "address": "Адрес",
             "commentary": "Комментарий"
           }
+        },
+        "client": {
+          "title": "Получатель",
+          "create_button": "Создать получателя",
+          "submit_button": "Редактировать получателя",
+          "delete_button": "Удалить получателя"
         }
+    },
+    "user": {
+      "email": "Электронная почта"
     },
     "legal": {
       "title": "Юридическая информация"
@@ -205,6 +236,7 @@
             "title": "Список товаров",
             "create_title": "Создание товара",
             "create_button": "Создать товар",
+            "edit_title": "Редактирование товара",
             "edit_button": "Редактировать товар",
             "back_button": "Назад к товарам",
             "remove_button": "Удаление товара"
