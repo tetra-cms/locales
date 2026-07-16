@@ -19,9 +19,10 @@
             "moreproducts": "Больше товаров из этой категории"
         },
         "actions": {
-          "remove": "Удалить",
-          "cancel": "Отменить",
-          "save_changes": "Сохранить изменения"
+            "view": "Просмотреть",
+            "remove": "Удалить",
+            "cancel": "Отменить",
+            "save_changes": "Сохранить изменения"
         },
         "roles": {
             "user": "Пользователь",
@@ -124,10 +125,10 @@
           }
         },
         "status": {
-            "PROCESSING": "В работе",
+            "IN_PROGRESS": "В работе",
             "CANCELLED": "Отменён",
             "RECEIVED": "Получен",
-            "DELIVERY": "В доставке",
+            "IN_DELIVERY": "В доставке",
             "ASSEMBLED": "Собран",
             "PENDING_PAYMENT": "Ожидает оплаты"
         }
@@ -201,6 +202,7 @@
             "remove_button": "Удаление товара"
         },
         "orders": {
+            "positions": "Позиции",
             "title": "Заказы",
             "create_title": "Создание заказа",
             "edit_title": "Редактирование заказа",
@@ -266,6 +268,7 @@
                 "content": "Контент"
             },
             "order": {
+                "phone": "Телефон",
                 "client": "Клиент",
                 "status": "Статус",
                 "comment": "Комментарий",
