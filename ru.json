@@ -140,6 +140,10 @@
             "plural": "товаров"
         }
     },
+    "client": {
+      "create_button": "+ Создать нового получателя",
+      "change_button": "Выбрать получателя"
+    },
     "modal": {
         "clearwindow": {
             "clear_cart": "Очистка корзины",
