@@ -43,7 +43,9 @@
     "header": {
         "contacts": "Контакты"
     },
-
+    "uom": {
+        "megabyte": "МБ"
+    },
     "auth": {
         "mobile": {
             "message": "Для доступа к меню войдите или создайте профиль"
@@ -171,6 +173,11 @@
       "create_button": "+ Создать нового получателя",
       "change_button": "Выбрать получателя"
     },
+    "file-upload": {
+        "title": "Загрузить файл",
+        "placeholder": "Размер: ",
+        "placeholder-extensions": "Расширения: "
+    },
     "modal": {
         "clearwindow": {
             "clear_cart": "Очистка корзины",
@@ -212,6 +219,9 @@
             "title": "Управление бизнесом",
             "leave": "Выйти из панели"
         },
+        "mail": {
+            "title": "Рассылка"
+        },
         "dashboard": {
             "title": "Статистика",
             "statistic": {
@@ -242,6 +252,7 @@
             "remove_button": "Удаление товара"
         },
         "orders": {
+            "change_status": "Изменить статус",
             "positions": "Позиции",
             "title": "Заказы",
             "create_title": "Создание заказа",
@@ -301,7 +312,8 @@
                 "category": "Категория",
                 "price": "Цена",
                 "supply_quantum": "Квант поставки",
-                "stock": "Наличие"
+                "stock": "Наличие",
+                "upload-image": "Загрузить изображение"
             },
             "content": {
                 "route": "Маршрут",
@@ -317,7 +329,10 @@
                 "quantity": "Количество",
                 "price": "Цена",
                 "total_price": "Сумма",
-                "total_quantity": "Количество"
+                "total_quantity": "Количество",
+                "fcs": "ФИО",
+                "email": "Электронная почта",
+                "address": "Адрес"
             }
         }
     }
