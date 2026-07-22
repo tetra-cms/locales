@@ -216,6 +216,24 @@
       "title": "Юридическая информация"
     },
     "admin": {
+        "nav": {
+            "items": {
+                "dashboard": "Статистика",
+                "products": "Товары",
+                "categories-products": "Категории товаров",
+                "orders": "Заказы",
+                "users": "Пользователи",
+                "content-pages": "Страницы контента",
+                "mailer": "Рассылка",
+                "settings": "Настройки"
+            },
+            "category": {
+                "statistic": "Статистика",
+                "products": "Товары",
+                "reports": "Отчёты",
+                "system": "Система"
+            }
+        },
         "header": {
             "title": "Tetra — Администрационная панель"
         },

@@ -215,6 +215,24 @@
     "title": "Legal information"
   },
   "admin": {
+    "nav": {
+      "items": {
+        "dashboard": "Statistics",
+        "products": "Products",
+        "categories-products": "Product Categories",
+        "orders": "Orders",
+        "users": "Users",
+        "content-pages": "Content Pages",
+        "mailer": "Mailer",
+        "settings": "Settings"
+      },
+      "category": {
+        "statistic": "Statistics",
+        "products": "Products",
+        "reports": "Reports",
+        "system": "System"
+      }
+    },
     "header": {
       "title": "Tetra — Administration Panel"
     },
