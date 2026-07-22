@@ -1,155 +1,348 @@
 {
-    "common": {
-        "catalog": {
-            "sortby": "Sort by:",
-            "sort": {
-                "asc": "Ascending",
-                "desc": "Descending",
-                "common": "by price"
-            },
-            "error": {
-                "noitems": "No items loaded"
-            }
-        },
-        "product": {
-            "description": "Description",
-            "price": "Price",
-            "similar": "Related products",
-            "moreproducts": "More products by this category"
-        }
+  "common": {
+    "category": "Categories",
+    "search": "Search",
+    "loading": "Loading",
+    "catalog": {
+      "sortby": "Sort by:",
+      "sort": {
+        "asc": "Ascending",
+        "desc": "Descending",
+        "common": "by price"
+      },
+      "error": {
+        "noitems": "No products were loaded"
+      }
     },
-
-    "header": {
-        "contacts": "Contacts"
+    "product": {
+      "description": "Product description",
+      "price": "Price",
+      "similar": "Similar products",
+      "moreproducts": "More products from this category",
+      "supply_quantum": "Package quantity"
     },
-
-    "auth": {
-        "mobile": {
-            "message": "For the access to the menu you have authorize first"
-        },
-        "title": {
-            "login": "Authorization",
-            "register": "Registration"
-        },
-        "message": {
-            "login": "Already have an account? Log in",
-            "register": "Don't have a account? Register"
-        },
-        "fields": {
-            "login": "Login",
-            "email": "E-mail",
-            "password": "Password",
-            "repeatpassword": "Repeat password"
-        },
-        "buttons": {
-            "login": "Login",
-            "register": "Register"
-        },
-        "errors": {
-            "wrongpassword": "Wrong username or password"
-        }
+    "actions": {
+      "view": "View",
+      "remove": "Delete",
+      "cancel": "Cancel",
+      "close": "Close",
+      "save_changes": "Save changes"
     },
-
-    "category": {
-        "all": "All items"
+    "roles": {
+      "user": "User",
+      "employee": "Employee",
+      "admin": "Administrator"
     },
-
-    "headers": {
-        "cart": "Cart",
-        "mightlike": "You might like"
+    "infinity": "Unlimited",
+    "delete_confirmaiton": "Are you sure you want to delete",
+    "undone_action": "This action cannot be undone"
+  },
+  "404": {
+    "title": "Nothing here",
+    "sub_title": "Try searching somewhere else :)",
+    "comeback": "Back to home"
+  },
+  "header": {
+    "contacts": "Contacts"
+  },
+  "uom": {
+    "megabyte": "MB"
+  },
+  "auth": {
+    "mobile": {
+      "message": "Sign in or create an account to access the menu"
     },
-
-    "tables": {
-        "cart": {
-            "name": "Name",
-            "amount": "Amount",
-            "price": "Price",
-            "clear": "Clear cart",
-            "emptycart": {
-                "title": "Cart is empty",
-                "subtitle": "For the first you have to choose something from catalog"
-            }
-        },
-        "selectall": "Select all"
+    "title": {
+      "login": "Sign In",
+      "register": "Sign Up"
     },
-
+    "message": {
+      "login": "Already have an account? Sign in",
+      "register": "Don't have an account yet? Register"
+    },
+    "fields": {
+      "login": "Login",
+      "email": "Email",
+      "password": "Password",
+      "repeatpassword": "Repeat password"
+    },
     "buttons": {
-        "incart": "In cart",
-        "backincatalog": "Back in catalog",
-        "placeorder": "Place an order",
-        "clear": "Clear",
-        "cancel": "Cancel"
+      "login": "Sign In",
+      "register": "Register"
     },
-
-    "usermenu": {
-        "admin_panel": "For employees",
-        "logout": "Logout"
-    },
-
     "errors": {
-        "product": {
-            "404": {
-                "title": "Can't find this product",
-                "button": "Return to catalog"
-            }
-        },
-        "auth": {
-            "mismatchpass": "Passwords doesn't match"
-        },
-        "cart": {
-            "noitems": "Empty cart"
-        }
-    },
-
-    "order": {
-        "block": {
-            "summary": "In total"
-        }
-    },
-
-    "labels": {
-        "itn": "ITN",
-        "psnsp": "PSNSP",
-        "item": {
-            "singular": "item",
-            "plural": "items"
-        }
-    },
-
-    "modal": {
-        "closewindow": {
-            "title": "Are you sure you want to clear the cart?",
-            "subtitle": "All items will be removed from cart"
-        }
-    },
-
-    "admin": {
-        "header": {
-            "title": "Tetra — Admin panel"
-        },
-        "auth": {
-            "subtitle": "Admin panel enterance"
-        },
-        "menu": {
-            "title": "Control the business",
-            "leave": "User mode"
-        },
-        "dashboard": {
-            "title": "Overview",
-            "statistic": {
-                "periodgap": {
-                    "placeholder": "Last",
-                    "placeholder_sub": "Period: ",
-                    "day": "day",
-                    "month": "month",
-                    "year": "year"
-                },
-                "order": "Orders",
-                "revenue": "Revenue"
-            }
-        },
-        "items": {
-            "title": "Products overview"
-        }
+      "wrongpassword": "Invalid login or password",
+      "invalidCredentials": "Invalid credentials"
     }
+  },
+  "category": {
+    "all": "All products"
+  },
+  "product": {
+    "title": "Our products"
+  },
+  "headers": {
+    "cart": "Cart",
+    "mightlike": "You may also like"
+  },
+  "tables": {
+    "cart": {
+      "name": "Product",
+      "amount": "Quantity",
+      "price": "Price",
+      "clear": "Clear cart",
+      "emptycart": {
+        "title": "Your cart is empty",
+        "subtitle": "Start by choosing something from the catalog"
+      }
+    },
+    "selectall": "Select all"
+  },
+  "buttons": {
+    "incart": "Add to cart",
+    "backincatalog": "Back to catalog",
+    "placeorder": "Place order",
+    "clear": "Clear",
+    "cancel": "Cancel"
+  },
+  "usermenu": {
+    "admin_panel": "Staff Panel",
+    "logout": "Log out"
+  },
+  "errors": {
+    "product": {
+      "404": {
+        "title": "Product not found",
+        "button": "Back to catalog"
+      }
+    },
+    "auth": {
+      "mismatchpass": "Passwords do not match"
+    },
+    "cart": {
+      "noitems": "Your cart is empty"
+    }
+  },
+  "order": {
+    "title": "My Orders",
+    "order": "Order",
+    "created": "Created",
+    "payment": "Payment method",
+    "quantity": "Quantity",
+    "price": "Price",
+    "total": "Total",
+    "empty": "No orders found",
+    "payments": {
+      "CASH": "Cash",
+      "NONCASH": "Bank transfer"
+    },
+    "deliveryes": {
+      "PICKUP": "Pickup",
+      "DELIVERY": "Delivery"
+    },
+    "comment": "Comment",
+    "positions": "Items",
+    "total_quantity": "Quantity",
+    "delivery": "Delivery method",
+    "client": "Recipient",
+    "information": "Order information",
+    "block": {
+      "summary": "Summary"
+    },
+    "types": {
+      "pickup": "Pickup",
+      "delivery": "Delivery",
+      "pay": {
+        "cash": "Cash",
+        "noncash": "Bank transfer"
+      }
+    },
+    "status": {
+      "status": "Order status",
+      "IN_PROGRESS": "In Progress",
+      "CANCELLED": "Cancelled",
+      "RECEIVED": "Received",
+      "IN_DELIVERY": "Out for Delivery",
+      "ASSEMBLED": "Assembled",
+      "PENDING_PAYMENT": "Pending Payment"
+    }
+  },
+  "labels": {
+    "itn": "TIN",
+    "psnsp": "OGRN",
+    "item": {
+      "singular": "item",
+      "plural": "items"
+    }
+  },
+  "client": {
+    "create_button": "+ Create new recipient",
+    "change_button": "Select recipient"
+  },
+  "file-upload": {
+    "title": "Upload file",
+    "placeholder": "Size: ",
+    "placeholder-extensions": "Extensions: "
+  },
+  "modal": {
+    "clearwindow": {
+      "clear_cart": "Clear cart",
+      "hint1": "Are you sure you want to clear the cart?",
+      "hint2": "All items will be removed from the cart"
+    },
+    "order": {
+      "title": "Place Order",
+      "submit_button": "Confirm order",
+      "fields": {
+        "fcs": "Full name",
+        "phone": "Phone",
+        "city": "City",
+        "address": "Address",
+        "commentary": "Comment"
+      }
+    },
+    "client": {
+      "title": "Recipient",
+      "create_button": "Create recipient",
+      "submit_button": "Edit recipient",
+      "delete_button": "Delete recipient"
+    }
+  },
+  "user": {
+    "email": "Email"
+  },
+  "legal": {
+    "title": "Legal information"
+  },
+  "admin": {
+    "header": {
+      "title": "Tetra — Administration Panel"
+    },
+    "auth": {
+      "subtitle": "Sign in to the administration panel"
+    },
+    "menu": {
+      "title": "Business Management",
+      "leave": "Leave panel"
+    },
+    "mail": {
+      "title": "Mailing"
+    },
+    "dashboard": {
+      "title": "Statistics",
+      "statistic": {
+        "periodgap": {
+          "placeholder": "Last",
+          "placeholder_sub": "Period: ",
+          "day": "day",
+          "month": "month",
+          "year": "year"
+        },
+        "order": "Orders",
+        "revenue": "Revenue"
+      }
+    },
+    "common": {
+      "search": "Search",
+      "records": "records",
+      "loading": "Loading",
+      "infinity": "Unlimited"
+    },
+    "items": {
+      "title": "Products",
+      "create_title": "Create Product",
+      "create_button": "Create Product",
+      "edit_title": "Edit Product",
+      "edit_button": "Edit Product",
+      "back_button": "Back to Products",
+      "remove_button": "Delete Product"
+    },
+    "orders": {
+      "change_status": "Change Status",
+      "positions": "Items",
+      "title": "Orders",
+      "create_title": "Create Order",
+      "edit_title": "Edit Order",
+      "create_button": "Create Order",
+      "edit_button": "Save Changes",
+      "remove_button": "Delete Order",
+      "empty": "No orders found"
+    },
+    "users": {
+      "title": "Users"
+    },
+    "categories": {
+      "title": "Categories",
+      "create_title": "Create Category",
+      "create_button": "Create Category",
+      "edit_title": "Edit Category",
+      "edit_button": "Edit Category",
+      "back_button": "Back to Categories"
+    },
+    "errors": {
+      "no_data": "No data"
+    },
+    "content": {
+      "title": "Content Pages",
+      "create_title": "Create Page",
+      "edit_title": "Edit Page",
+      "back_button": "Back to Pages",
+      "edit_button": "Edit Page",
+      "create_button": "Create Page"
+    },
+    "columns": {
+      "mail": {
+        "title": "Mail Settings",
+        "mailer": "Mail Driver",
+        "scheme": "Scheme",
+        "host": "Host",
+        "port": "Port",
+        "username": "Username",
+        "password": "Password",
+        "from_address": "From Address",
+        "from_name": "From Name"
+      },
+      "common": {
+        "id": "ID",
+        "title": "Title",
+        "actions": "Actions",
+        "techinal_name": "Technical Name",
+        "name": "Name",
+        "icon_name": "Icon",
+        "created_at": "Created At"
+      },
+      "user": {
+        "username": "Username",
+        "email": "Email",
+        "role": "Role"
+      },
+      "product": {
+        "description": "Description",
+        "category": "Category",
+        "price": "Price",
+        "supply_quantum": "Supply Quantum",
+        "stock": "Stock",
+        "upload-image": "Upload Image"
+      },
+      "content": {
+        "route": "Route",
+        "content": "Content"
+      },
+      "order": {
+        "phone": "Phone",
+        "client": "Client",
+        "status": "Status",
+        "comment": "Comment",
+        "positions": "Items",
+        "product": "Product",
+        "quantity": "Quantity",
+        "price": "Price",
+        "total_price": "Total Price",
+        "total_quantity": "Total Quantity",
+        "fcs": "Full Name",
+        "email": "Email",
+        "address": "Address"
+      }
+    }
+  }
 }
